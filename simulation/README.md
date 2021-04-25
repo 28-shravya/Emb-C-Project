@@ -1,16 +1,21 @@
-# Blinky Project In Action
+## LED on due to the actions of 2 switches
 
 |ON|OFF|
 |:--:|:--:|
-|\image html ON.png||
+|simulation/LED on.png|simulation/LED off.png|
 
 ## Code 
 ```
-	for(;;)
-	{
-        change_led_state(HIGH);
-		delay_ms(LED_ON_TIME);
-        change_led_state(LOW);
-		delay_ms(LED_OFF_TIME);	
-	}
+	while(1)
+    	{
+        if(!(PIND&(1<<PD0)) && !(PIND&(1<<PD1))){
+            PORTB |= (1<<PB0);
+            _delay_ms(2000);
+         }
+        else{
+            PORTB &= ~(1<<PB0);
+            _delay_ms(2000);
+         }
+   	}
+
 ```
