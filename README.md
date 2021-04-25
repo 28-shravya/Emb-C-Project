@@ -6,4 +6,4 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-
+|[![Compile-Linux](https://github.com/28-shravya/Emb-C-Project/actions/workflows/compile.yml/badge.svg)](https://github.com/28-shravya/Emb-C-Project/actions/workflows/compile.yml)|
