@@ -1,9 +1,5 @@
 ## LED on due to the actions of 2 switches
 
-|ON|OFF|
-|:--:|:--:|
-|simulation/LED on.png|simulation/LED off.png|
-
 ## Code 
 ```
 	while(1)
