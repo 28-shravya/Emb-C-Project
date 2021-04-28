@@ -25,12 +25,13 @@ void setup_pwm();
 
 /**
  * @brief Generating PWM waveform according to the value of temperature(ADC)
+ * @param[in] uint16_t value is sent as input to initiate PWM according to the value
  * @note For 0-200 ADC value duty cycle of PWM is 20% denotes 20 degree Celsius
  * @note For 210-500 ADC value duty cycle of PWM is 40% denotes 25 degree Celsius
  * @note For 510-700 ADC value duty cycle of PWM is 70% denotes 29 degree Celsius
  * @note For 710-1024 ADC value duty cycle of PWM is 95% denotes 33 degree Celsius
  * @note For any other ADC value duty cycle of PWM is 100%
  */
-void pwm_waveform();
+void pwm_waveform(uint16_t value);
 
 #endif // ACTIVITY3_H_INCLUDED
