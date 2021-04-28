@@ -1,4 +1,4 @@
-DOXY_FILE = LED_Output
+DOXY_FILE = SeatTemp
 doc:
 	doxygen ./$(DOXY_FILE)
 

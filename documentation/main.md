@@ -1,1 +1,1 @@
-@mainpage LED output Program by Shravya K N @subpage project_main.c
+@mainpage Seat_Temperature Program by Shravya K N @subpage project_main.c
