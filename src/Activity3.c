@@ -1,4 +1,5 @@
 #include "Activity3.h"
+#include "Activity2.h"
 
 void setup_pwm()
 {
