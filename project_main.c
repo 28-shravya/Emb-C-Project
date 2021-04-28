@@ -28,7 +28,7 @@ int main(void)
 			temp = ReadADC(0); /*Reading the temperature value*/
 			_delay_ms(200);
 			setup_pwm();	/*Setting up PWM*/
-			pwm_waveform();	/*Generation of PWM according to the temperature value*/
+			pwm_waveform(temp);	/*Generation of PWM according to the temperature value*/
 		}
     }
 	return 0;
