@@ -32,6 +32,6 @@ void setup_pwm();
  * @note For 710-1024 ADC value duty cycle of PWM is 95% denotes 33 degree Celsius
  * @note For any other ADC value duty cycle of PWM is 100%
  */
-void pwm_waveform(uint16_t value);
+void pwm_waveform(uint16_t);
 
 #endif // ACTIVITY3_H_INCLUDED
