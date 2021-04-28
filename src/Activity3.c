@@ -7,8 +7,6 @@ void setup_pwm()
     DDRB |= (1<<PB1);   /*initializing portb1 for observing PWM*/
 }
 
-unsigned int temp = 160; /*random value*/
-
 void pwm_waveform(){
     if(temp>=0 && temp<=200){
         OCR1A = 0xcc; /*duty cycle is 20%*/
