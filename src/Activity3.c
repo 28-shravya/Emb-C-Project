@@ -8,16 +8,16 @@ void setup_pwm()
 }
 
 void pwm_waveform(uint16_t temp){
-    if(temp>=0 && temp<=200){
+    if(temp >= 0 && temp <= 200){
         OCR1A = 0xcc; /*duty cycle is 20%*/
     }
-    else if(temp>=210 && temp<=500){
+    else if(temp >= 210 && temp <= 500){
         OCR1A = 0x199;  /*duty cycle is 40%*/
     }
-    else if(temp>=510 && temp<=700){
+    else if(temp >= 510 && temp <= 700){
         OCR1A = 0x2cc;  /*duty cycle is 70%*/
     }
-    else if(temp>=710 && temp<=1024){
+    else if(temp >= 710 && temp <= 1024){
         OCR1A = 0x3cb;  /*duty cycle is 95%*/
     }
     else{

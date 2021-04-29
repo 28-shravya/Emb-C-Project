@@ -24,11 +24,14 @@ int main(void)
 		status = initialize_led();	/*Checking the status of buttons*/
 		if(status == 1){
 			InitADC();	/*Initailising ADC*/
+			setup_pwm();	/*Setting up PWM*/
+			USARTInit();	/*Initialising USART*/
     		uint16_t temp = 0;
 			temp = ReadADC(0); /*Reading the temperature value*/
 			_delay_ms(200);
-			setup_pwm();	/*Setting up PWM*/
 			pwm_waveform(temp);	/*Generation of PWM according to the temperature value*/
+			_delay_ms(200);
+			USARTWriteChar(temp);	/*Sending temperature value to Monitor*/
 		}
     }
 	return 0;
