@@ -12,17 +12,18 @@
 #ifndef ACTIVITY1_H_INCLUDED
 #define ACTIVITY1_H_INCLUDED
 
-#include <avr/io.h>
-#include <util/delay.h>
-
 /**
  * Macro Definitions
  */
+#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
 #define LED_PORT (PORTB)    /**< LED Port Number */
 #define LED_PIN  (PB0)      /**< LED Pin number  */
 #define SW_PORT (PORTD)     /**< SWITCH Port number */
 #define SW_PIN_0 (PD2)      /**< SWITCH 0 Pin number */
 #define SW_PIN_1 (PD3)      /**< SWITCH 1 Pin number */
+
+#include <avr/io.h>
+#include <util/delay.h>
 
 /**
  * @brief Initialize all the Peripherals and pin configurations
