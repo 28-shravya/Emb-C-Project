@@ -18,7 +18,6 @@
 /**
  * Macro Definitions
  */
-#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
 #define LED_PORT (PORTB)    /**< LED Port Number */
 #define LED_PIN  (PB0)      /**< LED Pin number  */
 #define SW_PORT (PORTD)     /**< SWITCH Port number */
