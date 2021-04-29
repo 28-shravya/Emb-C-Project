@@ -15,6 +15,8 @@
 #include <avr/io.h>
 #include<util/delay.h>
 
+#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
+
 /**
  * @brief Initialize all the Peripherals and pin configurations for pwm
  * @note PORTB1 is given to oscilloscope for observing the waveform as channel A is selected

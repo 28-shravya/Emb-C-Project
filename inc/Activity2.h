@@ -15,6 +15,8 @@
 #include <avr/io.h>
 #include<util/delay.h>
 
+#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
+
 /**
  * @brief Initializes the ADC conversion
  * @note By using suitable division factor ADC gets initialised
