@@ -1,0 +1,12 @@
+<circuit type="simulide_0.1" reactStep="50" speed="1000000" noLinAcc="5" animate="0" noLinStep="10">
+ 
+atmega328-3: 
+<item valLabelx="0" Program="uart/bin/Debug/uart.hex" labely="-20" valLabely="0" objectName="atmega328-3" labelx="0" x="-436" rotation="0" Mhz="16" Ser_Port="false" labelrot="0" itemtype="AVR" hflip="1" vflip="1" Show_id="true" id="atmega328-3" y="-484" valLabRot="0" Ser_Monitor="true"/>
+ 
+PlotterWidget-11: 
+<item modal="false" maximized="false" fullScreen="false" acceptDrops="false" accessibleName="" isActiveWindow="true" pos="" normalGeometry="" toolTip="" inputMethodHints="0" size="" frameGeometry="" maximumSize="" palette="" windowOpacity="1" windowFilePath="" contextMenuPolicy="1" childrenRegion="" y="0" windowIconText="" layoutDirection="0" focusPolicy="0" rect="" baseSize="" height="200" mouseTracking="false" windowTitle="" updatesEnabled="true" minimumHeight="200" sizeHint="" frameSize="" width="200" windowModified="false" windowIcon="" visible="false" x="0" minimumSize="" minimumWidth="200" maximumHeight="200" enabled="true" windowModality="0" minimumSizeHint="" whatsThis="" focus="false" accessibleDescription="" minimized="false" childrenRect="" itemtype="Plotter" styleSheet="" objectName="PlotterWidget-11" statusTip="" cursor="" MaxVolt="500" sizePolicy="" toolTipDuration="-1" autoFillBackground="false" locale="" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" maximumWidth="1000" sizeIncrement="" geometry="" MinVolt="-500"/>
+ 
+SerialPortWidget-12: 
+<item modal="false" maximized="false" fullScreen="false" acceptDrops="false" accessibleName="" isActiveWindow="true" pos="" normalGeometry="" toolTip="" inputMethodHints="0" size="" frameGeometry="" maximumSize="" palette="" windowOpacity="1" windowFilePath="" contextMenuPolicy="1" childrenRegion="" y="0" windowIconText="" layoutDirection="0" focusPolicy="0" rect="" baseSize="" height="141" mouseTracking="false" windowTitle="Settings" updatesEnabled="true" minimumHeight="0" sizeHint="" frameSize="" width="313" windowModified="false" windowIcon="" visible="false" x="0" minimumSize="" minimumWidth="0" maximumHeight="170" enabled="true" windowModality="0" minimumSizeHint="" SettingsProp=",0,3,0,0,0" whatsThis="" focus="false" accessibleDescription="" minimized="false" childrenRect="" itemtype="SerialPort" styleSheet="" objectName="SerialPortWidget-12" statusTip="" cursor="" sizePolicy="" toolTipDuration="-1" autoFillBackground="false" locale="" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" maximumWidth="450" sizeIncrement="" geometry=""/>
+ 
+</circuit>
