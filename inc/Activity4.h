@@ -16,8 +16,6 @@
 #include<util/delay.h>
 #include <stdint.h>
 
-#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
-
 /**
  * @brief Function to initialize the USART transmission
  * @param[in] unsigned integer i.e., uint16_t to set the baud rate to 9600

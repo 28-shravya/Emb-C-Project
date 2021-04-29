@@ -13,9 +13,6 @@
 #define ACTIVITY3_H_INCLUDED
 
 #include <avr/io.h>
-#include<util/delay.h>
-
-#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
 
 /**
  * @brief Initialize all the Peripherals and pin configurations for pwm
