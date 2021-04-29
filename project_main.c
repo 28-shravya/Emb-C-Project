@@ -25,7 +25,7 @@ int main(void)
 		if(status == 1){
 			InitADC();	/*Initailising ADC*/
 			setup_pwm();	/*Setting up PWM*/
-			USARTInit();	/*Initialising USART*/
+			USARTInit(103);	/*Initialising USART*/
     		uint16_t temp = 0;
 			temp = ReadADC(0); /*Reading the temperature value*/
 			_delay_ms(200);
