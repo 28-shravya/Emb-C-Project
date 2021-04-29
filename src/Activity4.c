@@ -75,5 +75,4 @@ void USARTWriteChar(uint16_t temp){
 		 UDR0 = '\n';   /*Put data into buffer, sends the data*/
     while (!( UCSR0A & (1<<UDRE0)));   /*Wait for empty transmit buffer*/
 		 UDR0 = '\r';					    /*Put data into buffer, sends the data*/
-    _delay_ms(200);
 }

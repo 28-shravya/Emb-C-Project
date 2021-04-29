@@ -13,7 +13,6 @@
 #define ACTIVITY4_H_INCLUDED
 
 #include<avr/io.h>
-#include<util/delay.h>
 #include <stdint.h>
 
 /**
