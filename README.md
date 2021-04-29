@@ -1,6 +1,6 @@
 # Embedded C Programming with Continuous Integration and Code Quality
 
-## LED blink using 2 switches
+## Seat Temperature monitor using Atmega328
 
 ### CI and Code Quality
 
